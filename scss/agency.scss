@@ -3,6 +3,11 @@
 
 // Global Components
 
+@font-face {
+    font-family: "Worker";
+    src: url(../fonts/worker.ttf) format("truetype");
+}
+
 body {
     overflow-x: hidden;
     @include body-font;
@@ -85,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: $theme-primary;
-        @include script-font;
+        @include worker-font;
         &:hover,
         &:focus,
         &:active,
@@ -529,65 +534,6 @@ section {
     }
 }
 
-// Clients Aside
-
-aside.clients {
-    img {
-        margin: 50px auto;
-    }
-}
-
-// Contact Section
-
-section#contact {
-    background-color: $gray-darker;
-    background-image: url('../img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    .section-heading {
-        color: white;
-    }
-    .form-group {
-        margin-bottom: 25px;
-        input,
-        textarea {
-            padding: 20px;
-        }
-        input.form-control {
-            height: auto;
-        }
-        textarea.form-control {
-            height: 236px;
-        }
-    }
-    .form-control:focus {
-        border-color: $theme-primary;
-        box-shadow: none;
-    }
-    ::-webkit-input-placeholder {
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    :-moz-placeholder { /* Firefox 18- */
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    ::-moz-placeholder {  /* Firefox 19+ */
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    :-ms-input-placeholder {  
-       @include heading-font;
-       font-weight: 700;
-       color: $gray-lighter;
-    }
-    .text-danger {
-        color: $theme-danger;
-    }
-}
 
 // Footer
 

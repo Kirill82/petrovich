@@ -3,6 +3,10 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+@font-face {
+  font-family: "Worker";
+  src: url(../fonts/worker.ttf) format("truetype"); }
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -138,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: transparent; }
   .navbar-custom .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
+    font-family: "Worker", "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
       color: #fec503; }
   .navbar-custom .navbar-collapse {
@@ -466,53 +470,6 @@ section {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
-
-aside.clients img {
-  margin: 50px auto; }
-
-section#contact {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
-  background-position: center;
-  background-repeat: no-repeat; }
-  section#contact .section-heading {
-    color: white; }
-  section#contact .form-group {
-    margin-bottom: 25px; }
-    section#contact .form-group input,
-    section#contact .form-group textarea {
-      padding: 20px; }
-    section#contact .form-group input.form-control {
-      height: auto; }
-    section#contact .form-group textarea.form-control {
-      height: 236px; }
-  section#contact .form-control:focus {
-    border-color: #fed136;
-    box-shadow: none; }
-  section#contact ::-webkit-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #eeeeee; }
-  section#contact :-moz-placeholder {
-    /* Firefox 18- */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #eeeeee; }
-  section#contact ::-moz-placeholder {
-    /* Firefox 19+ */
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #eeeeee; }
-  section#contact :-ms-input-placeholder {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #eeeeee; }
-  section#contact .text-danger {
-    color: #e74c3c; }
 
 footer {
   padding: 25px 0;
