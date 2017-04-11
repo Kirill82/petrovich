@@ -28,6 +28,12 @@
         offset: {
             top: 100
         }
-    })
+    });
+
+    $('.screenshots-item').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image'
+        // other options
+    });
 
 })(jQuery); // End of use strict
